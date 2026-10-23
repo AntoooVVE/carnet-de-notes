@@ -26,3 +26,4 @@ print(f"Moyenne : {moyenne}")
 with open("rapport.txt", "w", encoding="utf-8") as rapport:
     rapport.write(f"{len(notes)} notes, moyenne {round(moyenne, 2)}, mention {mention(moyenne)}\n")
 
+print(f"Meilleure note : {max(notes)}")
