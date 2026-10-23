@@ -24,4 +24,4 @@ moyenne = sum(notes) / len(notes)
 print(f"Moyenne : {moyenne}")
 
 with open("rapport.txt", "w", encoding="utf-8") as rapport:
-    rapport.write(f"{len(notes)} notes, moyenne {moyenne}\n")
+    rapport.write(f"{len(notes)} notes, moyenne {round(moyenne, 2)}\n")
